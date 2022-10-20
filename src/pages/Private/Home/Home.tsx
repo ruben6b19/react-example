@@ -84,7 +84,11 @@ function Home() {
       Hello, my name is Ruben.
     </Typography>
     <Typography variant="h6" gutterBottom>
-    I am a web and mobile developer, I have experience in android java, react js, react native and node express for backend
+    I am a web and mobile developer, I have experience in android java, react js, react native and node express for backend. Can you see the code for this page at <a href="https://github.com/ruben6b19/react-example" target="_blank">https://github.com/ruben6b19/react-example</a>
+    
+    </Typography>
+    <Typography variant="h6" gutterBottom>
+      Can you see my last personal project bellow, can you download my app at <a href="https://play.google.com/store/apps/details?id=com.jacoservice.customer" target="_blank">JacoService</a>    
     </Typography>
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
@@ -102,7 +106,7 @@ function Home() {
           </div>
         </Grid>
         <Grid item xs={12} md={8}>
-          <ImageList sx={{ width: size==='xl'? 1000 : size==='lg'? 700: size==='md'? 550: size==='xs'? 900:700, height: 700, alignSelf: "center" }} variant="woven" cols={size==='xl'? 4 : size==='lg'? 3: size==='md'? 2: 2 } gap={8}>
+          <ImageList sx={{ width: size==='xl'? 1000 : size==='lg'? 700: size==='md'? 550: size==='xs'? 900:700, height: 600, alignSelf: "center" }} variant="woven" cols={size==='xl'? 4 : size==='lg'? 3: size==='md'? 2: 2 } gap={8}>
             {itemData.map((item) => (
               <ImageListItem key={item.img}>
                 <img
