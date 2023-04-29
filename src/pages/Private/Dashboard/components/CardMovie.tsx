@@ -9,8 +9,7 @@ import noImage from '../../../../assets/noImage.jpg';
 export const CardMovie = ({movie}: any) => {
 
   return (
-    <Card sx={{ maxWidth: 300 }}>
-      
+    <Card sx={{ maxWidth: 300 }}>      
       <CardMedia
         component="img"
         height="450"
@@ -19,19 +18,14 @@ export const CardMovie = ({movie}: any) => {
         image= {movie.poster}
         alt="green iguana"
       />
-      <CardContent>
-      
-      
-        
+      <CardContent>        
         <Typography gutterBottom variant="h5" component="div">
           {movie.title}
         </Typography>
         <Typography gutterBottom variant="h6" component="div">
           {movie.year}
-        </Typography>
-        
-      </CardContent>
-    
+        </Typography>        
+      </CardContent>   
     </Card>
   );
 }
